@@ -39,7 +39,7 @@ const SimilarDocument = async () => {
         console.log("Similarity Score:", highestScore);
         
     } catch (error) {
-        console.error("\n❌ An error occurred:", error.message);
+        console.error("\n An error occurred:", error.message);
     }
 }
 SimilarDocument();
