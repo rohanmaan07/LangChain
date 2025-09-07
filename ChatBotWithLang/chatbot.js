@@ -10,10 +10,10 @@ const model = new ChatGoogleGenerativeAI({
   apiKey: process.env.GEMINI_API_KEY,
 });
 
-// ✅ Memory setup
+//  Memory setup
 const memory = new BufferMemory();
 
-// ✅ Chain setup (model + memory + prompt)
+//  Chain setup (model + memory + prompt)
 const chain = new ConversationChain({
   llm: model,
   memory: memory,
