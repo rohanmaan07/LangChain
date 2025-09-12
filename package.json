@@ -33,6 +33,7 @@
     "scikit-learn": "^0.1.0",
     "wikijs": "^6.4.1",
     "youtube-transcript": "^1.2.1",
+    "youtubei.js": "^15.0.1",
     "zod": "^3.25.76"
   }
 }
