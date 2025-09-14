@@ -1,0 +1,1 @@
+console.log("All Documents:", vectorStore.memoryVectors);
